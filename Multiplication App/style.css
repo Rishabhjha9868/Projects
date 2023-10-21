@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 252, 11);
+  color: darkgreen;
+}
+.container {
+  height: 30vh;
+  background-color: white;
+  width: 25vw;
+  height: 20vh;
+}

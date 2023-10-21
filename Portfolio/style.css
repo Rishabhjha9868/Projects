@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(22, 21, 21);
+  background: url(images/20190403_130702.jpg) fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+}
+
+nav .risu {
+  height: 70px;
+  margin: 20px 100px;
+}
+
+nav ul {
+  display: flex;
+  margin: 40px 400px;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+  font-size: 3vh;
+}
+.text-header {
+  margin-top: 30vh;
+}
+.text-header p {
+  margin-top: 20vh;
+  margin-left: 120px;
+  font-weight: 500;
+  font-size: 4vh;
+  color: white;
+}
+.text-header h1 {
+  color: white;
+  margin-top: 10px;
+  font-weight: 900;
+  margin-left: 120px;
+}
+.text-header h1 span {
+  color: rgb(211, 36, 36);
+  font-size: 6vh;
+}
+
+/* ----------------------------------------------About-------------------------------------------------------------- */
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(22, 21, 21);
+  height: 100vh;
+}
+
+.div .img {
+  height: 70vh;
+  width: 40vw;
+}
+.div {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div h1 {
+  margin-left: 40px;
+  color: white;
+}
+.risu p {
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+  font-size: 14px;
+}
+
+.nav {
+  margin-left: -80px;
+  margin-top: 30px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-left: 60px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.box {
+  border: 2px solid pink;
+  margin-left: 60px;
+  animation: rohan 6s linear 1s infinite alternate-reverse;
+}
+
+@keyframes rohan {
+  from {
+    width: 0px;
+    height: 2px;
+  }
+
+  to {
+    width: 50px;
+    height: 2px;
+  }
+}
+
+.box2 {
+  border: 2px solid pink;
+  margin-left: 330px;
+  animation: jha 6s linear 1s infinite alternate-reverse;
+}
+@keyframes jha {
+  from {
+    width: 0px;
+    height: 2px;
+  }
+
+  to {
+    width: 100px;
+    height: 2px;
+  }
+}
+
+.box3 {
+  /* border: 2px solid pink; */
+  padding-left: 40px;
+  /* animation: jha1 6s linear 1s infinite alternate-reverse; */
+}
+
+/* @keyframes jha1 {
+  from {
+    width: 0px;
+    height: 2px;
+  }
+
+  to {
+    width: 50px;
+    height: 2px;
+  }
+} */
+
+.risu2 {
+  margin: 60px 0px 0px 60px;
+}
+
+.risu2 h4 {
+  margin: 10px 0px 0px 10px;
+  color: rgb(201, 55, 80);
+}
+
+.risu2 h3 {
+  color: white;
+  margin: 10px 0px 0px 10px;
+}
+
+/* -----------------------------------------MY SERVICE----------------------------------------------------------- */
+
+.container3 {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: rgb(22, 21, 21);
+}
+.heading {
+  padding: 30px 70px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  margin: 70px;
+  transition: background 0.5, transform 0.5s;
+}
+
+.service1 :hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+.service1 {
+  background-color: rgb(32, 29, 29);
+  border-radius: 2px;
+  transition: background 0.5, transform 0.5s;
+  width: 25vw;
+}
+.service1 h3 {
+  margin: 25px;
+  font-size: 24px;
+}
+.service1 p {
+  margin: 25px;
+  font-size: 12px;
+}
+
+.service1 a {
+  margin: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.service2 {
+  background-color: rgb(32, 29, 29);
+  border-radius: 2px;
+  margin-left: 25px;
+  width: 25vw;
+  transition: background 0.5, transform 0.5s;
+}
+.service2 :hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+.service2 h3 {
+  margin: 25px;
+  font-size: 24px;
+}
+
+.service2 p {
+  margin: 25px;
+  font-size: 12px;
+}
+
+.service2 a {
+  margin: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.service3 {
+  background-color: rgb(32, 29, 29);
+  border-radius: 2px;
+  margin-left: 25px;
+  width: 25vw;
+  transition: background 0.5, transform 0.5s;
+}
+.service3 :hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+.service3 h3 {
+  margin: 25px;
+  font-size: 24px;
+}
+
+.service3 p {
+  margin: 25px;
+  font-size: 12px;
+}
+
+.service3 a {
+  margin: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+/* .service div :hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+} */
+
+/* -----------------------------------------------MY WORK------------------------------------------------------------ */
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+}
+
+.work img {
+  width: 90%;
+  height: 0;
+  background: linear-gradient(rgb(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+}

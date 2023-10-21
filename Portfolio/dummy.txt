@@ -1,0 +1,7 @@
+ <h4 class="risu1">UI/UX</h4>
+                <h4>Desigining Web/App interfaces</h4>
+                <h4 class="risu1"  >Web Development</h4>
+                <h4>Web app Development</h4>
+                <h4 class="risu1">App Development</h4>
+                <h4>Building Android/ios
+</h4>
